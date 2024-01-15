@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Stylish&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mulish&family=Pacifico&family=Rubik+Maps&family=Sevillana&family=Stylish&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+
+
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+.navbar {
+  background: transparent !important;
+
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  color: #f50057 !important;
+  font-size: 1.9rem !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.navbar a:hover {
+  color: #f50057 !important;
+}
+
+li a.active {
+  color: #fff !important;
+  font-weight: bold;
+  border-bottom: 1px solid #565387 !important;
+}
+
+.brand-name {
+  color: #f50057;
+}
+
+
+
+#header h1 {
+
+  margin-top: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+
+}
+
+
+.row h1 {
+  color: #f50057 !important;
+}
+
+.row h2 {
+
+  color: #fff !important;
+}
+
+.navbar {
+  width: 100% !important;
+  position: relative;
+  background-color: black !important;
+  color: #fff !important;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.main_container {
+  background: rgba(0, 0, 0, 0.5) url("./images/main.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  /* Adjusted from 'right' to 'flex-end' for better compatibility */
+  align-items: center;
+  text-align: right;
+}
+
+.home_content {
+  padding: 0 20px;
+  /* Adjusted padding for better spacing on smaller screens */
+  max-width: 700px;
+  /* Set a maximum width for better readability on larger screens */
+  width: 100%;
+  /* Make the content take up the full width on smaller screens */
+}
+
+.home_img {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  /* Adjusted from 'right' to 'flex-end' for better compatibility */
+  align-items: center;
+}
+
+.home_img img {
+
+
+  width: 100%;
+  /* Make the image responsive */
+  max-width: 300px;
+  /* Set a maximum width for better readability on larger screens */
+  height: 400px;
+  /* Maintain the aspect ratio */
+  border-radius: 20px;
+  z-index: 1;
+}
+
+
+
+
+
+.footer {
+  background-color: #f8bbd0;
+  color: black;
+  height: 22px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #ddd; /* Add a border for a better visual appearance */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  transition: box-shadow 0.3s ease-in-out; /* Add box-shadow transition for hover effect */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.card a {
+  text-decoration: none;
+  color: #455a64;
+  display: block; /* Make the link fill the entire card for better clickability */
+  padding: 15px; /* Add padding for better spacing inside the card */
+}
+
+.card a:hover {
+  text-decoration: underline; /* Add underline on link hover */
+}
+
+.card img:hover {
+  transition: transform 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+
+
+.second_section {
+  width: 100%;
+  height: 100vh;
+  background-color: #fce4ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffebee;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  height: 70vh;
+}
+
+.page_content h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 800;
+  color: black;
+  font-size: 150px;
+
+}
+
+.page_content p {
+  color: #f50057;
+  font-weight: bold;
+}
+
+
+.home_btn {
+  position: relative;
+  width: 120px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #f50057;
+  color: #ffffff;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.home_btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #484848;
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.home_btn:hover::before {
+  left: 0;
+}
+
+/* Additional style for NavLink text */
+.home_btn a {
+  position: relative;
+  z-index: 2;
+  /* Ensure the text is above the pseudo-element */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  /* Inherit text color from parent */
+}
+.home_heading{
+  background: linear-gradient(to right, #f32170, #f32170,#f32170, #f8ec8f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+}
+.abt_heading {
+  background: linear-gradient(to right, #f32170, #171616,#cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+
+  animation: letter 2s 1 ease-in-out;
+}
+
+.price_main {
+  width: 100%;
+
+
+
+
+  height: auto;
+}
+
+.price_menu {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(600px, 800px));
+}
+
+@keyframes letter {
+  0% {
+    letter-spacing: 5px;
+  }
+
+  50% {
+    letter-spacing: 10px;
+  }
+
+  100% {
+    letter-spacing: 2px;
+  }
+
+}
+
+.about_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about_img {
+  width: 100%;
+  /* Take up the full width on smaller screens */
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_img img {
+  width: 100%;
+  /* Make the image responsive */
+  height: auto;
+  /* Maintain the aspect ratio */
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.about_content {
+  width: 100%;
+  /* Take up the full width on smaller screens */
+  text-align: center;
+  /* Center the text on smaller screens */
+  padding: 20px;
+  /* Add padding for better readability on smaller screens */
+}
+
+.Img_container {
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.Img_container img {
+  margin: auto;
+  width: 400px;
+  height: 300px;
+}
+
+.ad {
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* Adjust this value as needed */
+  max-width: 400px;
+  /* Optional: Set a maximum width to avoid stretching on larger screens */
+  height: 200px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  position: absolute;
+  top: 35%;
+  /* Adjust this value as needed */
+  left: 50%;
+  /* Adjust this value as needed */
+  transform: translateX(-50%);
+  /* Center the ad horizontally */
+  text-align: center;
+  color: #455a64;
+  box-shadow: 2px 3px 20px #263238;
+}
+.insta{
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.price_main {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  justify-content: center;
+  gap: 10px;
+
+
+}
+.price_menu {
+  width: 80%;
+  max-width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 0.5px solid #455a64;
+  border-radius: 10px;
+  margin: auto; /* Center the .price_menu horizontally within each grid cell */
+
+}
+
+.price_menu h2 {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.price_menu img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.table_container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+ /* Center the content horizontally */
+}
+
+tr {
+   /* Make each row take the full width */
+/* Add some space between rows */
+  display: flex;
+  
+  justify-content: space-between;
+
+}
+.side_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 50px;
+  height: 100px;
+  position: fixed;
+  bottom:5%;
+  background-color: #f48fb1;
+  cursor: pointer;
+  z-index: 4;
+  right: 0;
+  color: #fff;
+}
+
+.whatsapp {
+  text-decoration: none;
+  margin: 10px 0;
+  color: #fff;
+}
+.insta{
+  text-decoration: none;
+  margin: 10px 0;
+  color: #fff;
+}
+.whatsapp:hover{
+  color: #f50057;
+}
+.insta:hover{
+  color: #f50057;
+
+}
+
+/* Optional: Add styles for individual cells if needed */
+
+@media screen and (max-width: 998px) {
+  .home_img img {
+    margin-top: 0;
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .page_content h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .page_content h1 {
+    font-size: 80px;
+  }
+
+  .home_img img {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 440px) {}
