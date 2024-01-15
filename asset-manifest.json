@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Parlour/static/css/main.5efdc445.css",
+    "main.js": "/Parlour/static/js/main.5bbddc3c.js",
+    "static/media/prc-1.jpg": "/Parlour/static/media/prc-1.3983b5ff741694d9d65f.jpg",
+    "static/media/spy.jpg": "/Parlour/static/media/spy.37947dcbfa2151caa16e.jpg",
+    "static/media/nail.jpg": "/Parlour/static/media/nail.7f5834c6b1143def3e70.jpg",
+    "static/media/facial.jpeg": "/Parlour/static/media/facial.021b870b554bf6d6ea77.jpeg",
+    "static/media/haircut.webp": "/Parlour/static/media/haircut.a0c4c4056b799cb91513.webp",
+    "static/media/main.jpg": "/Parlour/static/media/main.18dacd56fd1fc7707ca1.jpg",
+    "static/media/makeup.jpg": "/Parlour/static/media/makeup.69f5a39da210b6fd3456.jpg",
+    "static/media/abt-5.webp": "/Parlour/static/media/abt-5.1769c65fef12429938a9.webp",
+    "static/media/anti.jpg": "/Parlour/static/media/anti.6689eab652d7ce5b7a96.jpg",
+    "static/media/abt-6.webp": "/Parlour/static/media/abt-6.fa2a290b5645d6b80273.webp",
+    "static/media/prc-5.jpg": "/Parlour/static/media/prc-5.140cebaf43fa2205724c.jpg",
+    "static/media/abt-1.jpg": "/Parlour/static/media/abt-1.159e4929ce97ce481b0c.jpg",
+    "static/media/nailart.jpg": "/Parlour/static/media/nailart.bdeca1ee578a43da9198.jpg",
+    "static/media/prc-2.webp": "/Parlour/static/media/prc-2.5935083eedc2722356da.webp",
+    "static/media/abt-7.jpg": "/Parlour/static/media/abt-7.0b3a018a05ff3493f496.jpg",
+    "static/media/abt-2.jpg": "/Parlour/static/media/abt-2.2fd7ced91dad9f516618.jpg",
+    "static/media/abt-3.webp": "/Parlour/static/media/abt-3.33e80e286bd006be88b4.webp",
+    "static/media/prc-4.webp": "/Parlour/static/media/prc-4.7fdda4390fa776fdc753.webp",
+    "static/media/prc-3.jpeg": "/Parlour/static/media/prc-3.da8da4ec5a93c180923d.jpeg",
+    "index.html": "/Parlour/index.html",
+    "main.5efdc445.css.map": "/Parlour/static/css/main.5efdc445.css.map",
+    "main.5bbddc3c.js.map": "/Parlour/static/js/main.5bbddc3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5efdc445.css",
+    "static/js/main.5bbddc3c.js"
+  ]
+}
